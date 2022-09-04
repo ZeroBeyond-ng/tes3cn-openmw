@@ -1,0 +1,11 @@
+#+TITLE:TES3CN on Openmw, a project to add the support of Chinese GBK encoding in openmw.
+* Development Environment setup
+** ArchLinux
+*** Deps
+[[Check Out AUR package PKGBUILD file][https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=openmw-git]]
+*** Instruction
+#+begin_src bash
+mkdir build
+cd build
+cmake ../
+#+end_src
